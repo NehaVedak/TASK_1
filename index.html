@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Single Page Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div class = "wrapper">
+                <div class = "icon">
+                    <i class = "fas fa-laptop-code"></i>
+                </div>
+                <div class = "vert-line"></div>
+                <div class = "text">
+                    <h2>INFINITE SOLUTIONS</h2>
+                    <p>Connecting People and Technology.</p>
+                </div>
+                <div class = "vert-line"></div>
+                <nav>
+                    <ul>
+                        <li><a href = "#">intro</a></li>
+                        <li><a href = "#">work</a></li>
+                        <li><a href = "#">about</a></li>
+                        <li><a href = "#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id = "intro" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">intro</h2>
+            <img src = "images/intro-1.jpg" alt = "">
+            <img src = "images/intro-2.jpg" alt = "">
+            <p>Infinite Solutions is one of the few IT system integration, professional service and software development companies in Macedonia that works with Enterprise systems and companies. As a privately owned company, Infinite Solutions provides IT Consultancy, software design and development as well as professional services and hardware deployment and maintenance</p>
+        </section>
+
+        <section id = "work" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">work</h2>
+
+            <article>
+                <img src = "images/work-1.jpg">
+                <p>Infinite Solutions as a Microsoft Dynamics partner, has a unique value in development, integration and implementation of MS Dynamics AX, .Net, CRM, Share Point and RMS based projects in the following verticals: Defense, Retail, Finance, Manufacturing, Health Care and Education. We have highly skilled Microsoft team of Project managers, Consultants and Developers which are proven on a large scale projects with more than 1.000 users.</p>
+            </article>
+
+            <article>
+                <img src = "images/work-2.jpg">
+                <p>We also have special expertise in custom software development – providing specialized products, IT services and custom end to end solutions to our enterprise customers. We gain competitive advantage from these distinctive capabilities and have developed the ability to implement and manage complex IT systems in changing times with greater effectiveness than many competitors. In the last 10 years Infinite Solutions worked on more than 150 projects and has a large customer base of more than 50 customers all over Europe and USA, offering considerably lower priced services than EU Industry norm</p>
+            </article>
+
+            <article>
+                <img src = "images/work-3.jpg">
+                <p>Infinite Solutions is a company which intends to be in front of the client’s needs, deeply understanding clients’ business and delivering and optimizing IT solutions from the initial phase of scoping the requirements, up to the final delivery, maintenance and continuous upgrade. Infinite always look at the things from the customer perspective, but also from customer’s customer perspective to grasp their real business need for the IT solutions they deliver.</p>
+            </article>
+        </section>
+
+        <section id = "about" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">About Us</h2>
+            <img src = "images/about-img.jpg">
+            <h3>John Doe</h3>
+            <h3>Web Designer</h3>
+            <p>Enthusiastic and self-motivated web designer with 3+ years of experience. I am glad that i joined Infinite Solutions in order to bring top-class frontend development, UX, and visual design skills. In previous roles redesigned a SaaS website that reduced CAC by 50%, and implemented an SEO-optimized design that boosted traffic by 300%.</p>
+        </section>
+
+        <section id = "contact" class = "page">
+            <span class = "close-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+            <h2 class = "title">contact</h2>
+            <p>Feel free to contact us anytime</p>
+
+            <form>
+                <label for = "name">Name</label>
+                <input type = "text" id = "name">
+                <label for = "email">Email</label>
+                <input type = "email" id = "email">
+                <label for = "dob">Date Of Birth</label>
+                <input type = "date" id = "dob">
+                <label for = "message">Message</label>
+                <textarea id = "message" name = "message" rows = "4"></textarea>
+
+                <input type = "submit" value = "Send">
+            </form>
+        </section>
+        
+
+        <!-- JS File -->
+        <script src = "script.js"></script>
+    </body>
+</html>
